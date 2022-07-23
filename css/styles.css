@@ -79,4 +79,5 @@ h1 {
     padding: 2em;
     position: relative;
     left: 1em;
+    border-radius: 15px;
 }
