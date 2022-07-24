@@ -35,6 +35,11 @@ header {
     margin-bottom: 2rem;
 }
 
+.title-div {
+    position: relative;
+    left: 6rem;
+}
+
 .heading button {
     color: hsl(0, 0%, 100%);
     background-color: hsl(233, 54%, 16%);
@@ -56,7 +61,7 @@ header {
     border-radius: 20px;
     position: relative;
     margin-top: 1rem;
-    right: 5rem;
+    right: 2rem;
 }
 
 .tablet-img,.desktop-img {
@@ -128,4 +133,14 @@ footer button {
     margin-right: 1rem;
     padding: 1rem 2rem;
     border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+    .mobile-img {
+        display: none;
+    }
+
+    .tablet-img {
+        display: initial;
+    }
 }
