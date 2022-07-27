@@ -7,6 +7,7 @@
 body {
     background-color: hsl(234, 25%, 52%);
     width: 90vw;
+    overflow-x: hidden;
 }
 
 header {
@@ -92,7 +93,7 @@ header {
     padding: 2em;
     position: relative;
     left: 1em;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .card h3, .card p {
@@ -142,5 +143,58 @@ footer button {
 
     .tablet-img {
         display: initial;
+        width: 80%;
+        position: relative;
+        left: 12em;
+        bottom: 10em;
+    }
+    .container-card {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-column-gap: 15px;
+    }
+
+    .course-title {
+        position: relative;
+        bottom: 1em;
+        padding-bottom: 8rem;
+    }
+
+    .heading img {
+        position: relative;
+        right: 12rem;
+    }
+
+    .title-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .title {
+        width: 15rem;
+    }
+    .text-blurb {
+        width: 20rem;
+    }
+    .title,.text-blurb,.start-main {
+        position: relative;
+        left: 1rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .tablet-img {
+        display: none;
+    }
+    .desktop-img {
+        display: initial;
+    }
+    .container-card {
+        position: relative;
+        left: 14em;
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        grid-column-gap: 15px;
     }
 }
