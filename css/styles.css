@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: hsl(234, 25%, 52%);
+    background-color: #fff;
     width: 90vw;
     overflow-x: hidden;
 }
@@ -47,7 +47,7 @@ header {
     padding: 0.7rem 1.5rem;
     border-radius: 20px;
     position: relative;
-    left: 5.2rem;
+    left: 9rem;
 }
 
 .heading img {
@@ -74,6 +74,11 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 2.3rem;
+}
+
+.card,.course-title {
+    box-shadow: 10px 10px 10px 15px rgba(0, 0, 0, 0.7);
 }
 
 .course-title {
@@ -120,7 +125,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     background-color: #13183F;
-    width: 100vw;
+    width: 140%;
     padding: 2rem 0;
 }
 
@@ -145,13 +150,14 @@ footer button {
         display: initial;
         width: 80%;
         position: relative;
-        left: 12em;
-        bottom: 10em;
+        left: 22rem;
     }
     .container-card {
+        position: relative;
+        left: 5em;
         display: grid;
         grid-template-columns: repeat(2, 50%);
-        grid-column-gap: 15px;
+        grid-column-gap: 50px;
     }
 
     .course-title {
@@ -180,6 +186,10 @@ footer button {
         position: relative;
         left: 1rem;
     }
+    .heading .start {
+        position: relative;
+        left: 29rem;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -196,5 +206,8 @@ footer button {
         display: grid;
         grid-template-columns: repeat(3, 33.33%);
         grid-column-gap: 15px;
+    }
+    .course-title,.card {
+        margin-right: 2em;
     }
 }
