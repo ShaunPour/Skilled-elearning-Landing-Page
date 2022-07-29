@@ -47,7 +47,7 @@ header {
     padding: 0.7rem 1.5rem;
     border-radius: 20px;
     position: relative;
-    left: 9rem;
+    left: 5rem;
 }
 
 .heading img {
@@ -97,7 +97,6 @@ header {
     margin-bottom: 2.5rem;
     padding: 2em;
     position: relative;
-    left: 1em;
     border-radius: 10px;
 }
 
@@ -125,7 +124,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     background-color: #13183F;
-    width: 140%;
+    width: 112%;
     padding: 2rem 0;
 }
 
@@ -188,7 +187,10 @@ footer button {
     }
     .heading .start {
         position: relative;
-        left: 29rem;
+        left: 25rem;
+    }
+    footer {
+        width: 128%;
     }
 }
 
@@ -198,10 +200,18 @@ footer button {
     }
     .desktop-img {
         display: initial;
+        width: 65%;
+        position: relative;
+        left: 24em;
+        bottom: 15em;
     }
+    .heading img {
+        right: 30em;
+    }
+
     .container-card {
         position: relative;
-        left: 14em;
+        left: 8em;
         width: 75%;
         display: grid;
         grid-template-columns: repeat(3, 33.33%);
@@ -209,5 +219,8 @@ footer button {
     }
     .course-title,.card {
         margin-right: 2em;
+    }
+    footer {
+        width: 101%;
     }
 }
