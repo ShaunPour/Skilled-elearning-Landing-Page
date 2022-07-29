@@ -208,6 +208,16 @@ footer button {
     .heading img {
         right: 30em;
     }
+    
+    .heading button:hover,.start-main:hover,.footer-btn:hover {
+        color: #fff;
+        cursor: pointer;
+        opacity: 0.5;
+    }
+
+    .footer-btn:hover {
+        background-color: rgba(72,81,255,0.6);
+    }
 
     .container-card {
         position: relative;
