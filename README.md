@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Code Repository](https://github.com/DarkPhoenixNinja92/Skilled-elearning-Landing-Page)
-- Live Site URL: [Live Site](https://darkphoenixninja92.github.io/Skilled-elearning-Landing-Page/)
+- Solution URL: [GitHub Code Repository](https://github.com/ShaunPour/Skilled-elearning-Landing-Page)
+- Live Site URL: [Live Site](https://shaunpour.github.io/Skilled-elearning-Landing-Page/)
 
 ### Built with
 
